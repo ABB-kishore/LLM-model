@@ -1,0 +1,12 @@
+langchain
+langchain_openai
+openai
+streamlit
+python-docx
+python-dotenv
+pypdf
+faiss-cpu
+rank_bm25
+PyMuPDF
+python-docx
+PyPDF2
