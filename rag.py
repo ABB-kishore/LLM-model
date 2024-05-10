@@ -11,11 +11,11 @@ import os
 from langchain.prompts import PromptTemplate
 
 # Setting up the Azure GPT-4 Turbo API credentials
-openai_api_key = os.getenv("AZURE_GPT4_TURBO_KEY")
-openai_api_endpoint = os.getenv("AZURE_GPT4_TURBO_ENDPOINT")
-openai_api_version = os.getenv("AZURE_GPT4_TURBO_VERSION")
-openai_api_deployment = os.getenv("AZURE_GPT4_TURBO_DEPLOYMENT_NAME")
-openai_embeddings_deployment = os.getenv("AZURE_TRAFFIC3_EMBEDDINGS")
+openai_api_key = "ab98620d70c446b2aae75ee7835902f9"
+openai_api_endpoint = "https://rfq-traffic-3.openai.azure.com/"
+openai_api_version = "2023-07-01-preview"
+openai_api_deployment = "gpt-4-Turbo"
+openai_embeddings_deployment = "rfq-embeddings-traffic3"
 
 # Creating an instance of AzureOpenAIEmbeddings for text embeddings
 embedding = AzureOpenAIEmbeddings(
